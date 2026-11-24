@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BASFE | Banco de Alimentos Santa Fe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a class="brand" href="#" onclick="mostrarTab('inicio'); return false;">
+      <div class="brand-logo">♡</div>
+      <div>
+        <h2>BASFE</h2>
+        <small>Banco de Alimentos<br>Santa Fe</small>
+      </div>
+    </a>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="inicio">Inicio</button>
+      <button class="tab" data-tab="nosotros">Nosotros</button>
+      <button class="tab" data-tab="colaborar">Cómo colaborar</button>
+    </nav>
+
+    <button class="donar-btn" onclick="mostrarTab('colaborar')">Donar ♡</button>
+  </header>
+
+
+  <main>
+
+    <!-- ================= INICIO ================= -->
+    <section id="inicio" class="tab-content active-content">
+
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">♡ Alimentar • Ayudar • Compartir</span>
+          <h1>Visibilizar<br><em>para ayudar.</em></h1>
+          <p>
+            Conocé el trabajo de las personas que hacen posible que
+            más alimentos lleguen a quienes más los necesitan.
+          </p>
+
+          <div class="buttons">
+            <button class="primary" onclick="mostrarTab('nosotros')">
+              Conocé más →
+            </button>
+            <button class="secondary" onclick="mostrarTab('colaborar')">
+              Quiero ayudar
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-circle">🥕</div>
+          <span>Un pequeño gesto<br>puede hacer la diferencia.</span>
+        </div>
+      </section>
+
+
+      <section class="intro section">
+        <div class="section-image">🍎</div>
+        <div class="intro-text">
+          <span class="eyebrow">Conocenos</span>
+          <h2>¿Qué es el Banco de Alimentos Santa Fe?</h2>
+          <p>
+            Somos una organización que recupera alimentos aptos para el
+            consumo y los entrega a instituciones que ayudan a personas
+            que los necesitan.
+          </p>
+          <button class="text-btn" onclick="mostrarTab('nosotros')">
+            Leer más →
+          </button>
+        </div>
+      </section>
+
+
+      <section class="mission section">
+        <span class="eyebrow">Lo que nos mueve</span>
+        <h2>Nuestra misión</h2>
+
+        <div class="mission-grid">
+          <div class="value-card">
+            <div class="icon">♡</div>
+            <h3>Solidaridad</h3>
+            <p>Ayudar a quienes más lo necesitan.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="icon">✿</div>
+            <h3>Alimentar</h3>
+            <p>Evitar que los alimentos se desperdicien.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="icon">⌁</div>
+            <h3>Cuidar</h3>
+            <p>Cuidar los recursos y nuestra comunidad.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="icon">♡</div>
+            <h3>Unir</h3>
+            <p>Construir redes para lograr más juntos.</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="impact section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Nuestro impacto</span>
+            <h2>Ayudamos a transformar realidades.</h2>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>433K+</strong>
+            <span>kilos de alimentos<br>recuperados</span>
+          </div>
+          <div class="stat">
+            <strong>1.7M+</strong>
+            <span>platos de comida<br>elaborados</span>
+          </div>
+          <div class="stat">
+            <strong>156</strong>
+            <span>entidades<br>alcanzadas</span>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+
+    <!-- ================= NOSOTROS ================= -->
+    <section id="nosotros" class="tab-content">
+
+      <section class="page-hero">
+        <span class="eyebrow">♡ Sobre BASFE</span>
+        <h1>Personas que trabajan<br><em>por un mismo propósito.</em></h1>
+        <p>
+          Conocé nuestra historia, nuestros valores y la forma en que
+          trabajamos para generar un impacto positivo.
+        </p>
+      </section>
+
+      <section class="about section">
+        <div class="about-card">
+          <span class="big-icon">🌱</span>
+          <h2>¿Quiénes somos?</h2>
+          <p>
+            El Banco de Alimentos Santa Fe recupera alimentos que no serán
+            comercializados pero que todavía son aptos para el consumo.
+          </p>
+          <p>
+            Luego los entrega a organizaciones sociales que los utilizan
+            para acompañar a personas y familias de nuestra comunidad.
+          </p>
+        </div>
+
+        <div class="about-decoration">
+          <span>Juntos</span>
+          <strong>hacemos<br>la diferencia.</strong>
+          <small>Trabajo en red · Compromiso · Solidaridad</small>
+        </div>
+      </section>
+
+      <section class="values-section section">
+        <span class="eyebrow">Nuestros valores</span>
+        <h2>Lo hacemos con el corazón.</h2>
+
+        <div class="values-grid">
+          <article>
+            <span>01</span>
+            <h3>Compromiso</h3>
+            <p>Nos involucramos activamente con nuestra comunidad.</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <h3>Solidaridad</h3>
+            <p>Creemos que ayudar a otros nos ayuda a crecer juntos.</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <h3>Trabajo en red</h3>
+            <p>Unimos personas, empresas e instituciones.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote section">
+        <span>“</span>
+        <p>Cuando nos unimos, podemos lograr mucho más.</p>
+      </section>
+
+    </section>
+
+
+    <!-- ================= COLABORAR ================= -->
+    <section id="colaborar" class="tab-content">
+
+      <section class="page-hero">
+        <span class="eyebrow">♡ Sumate</span>
+        <h1>Hay muchas formas<br>de <em>ayudar.</em></h1>
+        <p>
+          Elegí la forma que más te guste y sé parte del cambio.
+        </p>
+      </section>
+
+      <section class="help section">
+
+        <div class="help-card featured">
+          <div class="help-icon">♡</div>
+          <div>
+            <span class="number">01</span>
+            <h2>Donar</h2>
+            <p>Tu aporte ayuda a que más alimentos lleguen a quienes los necesitan.</p>
+            <button class="primary">Quiero donar →</button>
+          </div>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon">✋</div>
+          <div>
+            <span class="number">02</span>
+            <h2>Ser voluntario</h2>
+            <p>Compartí tu tiempo y tus ganas de ayudar.</p>
+            <button class="secondary">Más información</button>
+          </div>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon">✦</div>
+          <div>
+            <span class="number">03</span>
+            <h2>Ofrecer servicios</h2>
+            <p>Podés colaborar con tus conocimientos y habilidades.</p>
+            <button class="secondary">Más información</button>
+          </div>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon">⌯</div>
+          <div>
+            <span class="number">04</span>
+            <h2>Difundir</h2>
+            <p>Compartí nuestro trabajo y ayudanos a llegar más lejos.</p>
+            <button class="secondary">Más información</button>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="cta section">
+        <span class="eyebrow">Una comunidad que ayuda</span>
+        <h2>Tu ayuda puede empezar hoy.</h2>
+        <p>Sumate a BASFE y hagamos juntos una diferencia.</p>
+        <button class="primary">Quiero ser parte ♡</button>
+      </section>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-brand">
+      <div class="brand-logo">♡</div>
+      <div>
+        <strong>BASFE</strong>
+        <small>Banco de Alimentos Santa Fe</small>
+      </div>
+    </div>
+
+    <div>
+      <h4>Enlaces</h4>
+      <p>Inicio · Nosotros · Cómo colaborar</p>
+    </div>
+
+    <div>
+      <h4>Contacto</h4>
+      <p>Santa Fe, Argentina<br>342 123 4567<br>info@basfe.org.ar</p>
+    </div>
+  </footer>
+
+
+  <script>
+    function mostrarTab(id) {
+      document.querySelectorAll(".tab-content").forEach(section => {
+        section.classList.remove("active-content");
+      });
+
+      document.querySelectorAll(".tab").forEach(button => {
+        button.classList.remove("active");
+      });
+
+      document.getElementById(id).classList.add("active-content");
+
+      const button = document.querySelector('[data-tab="' + id + '"]');
+      if (button) button.classList.add("active");
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    document.querySelectorAll(".tab").forEach(button => {
+      button.addEventListener("click", () => {
+        mostrarTab(button.dataset.tab);
+      });
+    });
+  </script>
+
+</body>
+</html>
